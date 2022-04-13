@@ -1,5 +1,5 @@
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bulanbintang69/BOT-FILE-MAN-DEWA)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bulanbintang69/BOT-HNIME-2-SUB)</br>
 
 # File-Sharing-Man
 
