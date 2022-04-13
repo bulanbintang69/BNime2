@@ -24,12 +24,12 @@ async def channel_post(client: Client, message: Message):
     reply_text = await message.reply_text("<code>Tunggu Sebentar...</code>", quote=True)
     try:
         post_message = await message.copy(
-            chat_id=client.db_channel.id, caption="∆ Uploader By ➤ <a href='https://t.me/+h1K3GOqG1JI5ZTAx'>Click here</a>\n∆ Channel telegram ➤ <a href='https://t.me/RestAreaDewasa'>Click here</a>\n∆ Group telegram ➤ <a href='https://t.me/RestAreaGroup'>Click here</a>\n∆ Twitter ➤ <a href='https://twitter.com/Ahegao_Maxxx?s=09'>Click here</a>\n\nDon't forget to share (っ'-')╮=͟͟͞͞💌"
+            chat_id=client.db_channel.id, caption="∆ Uploader By ➤ <a href='https://t.me/Central_Dark_World'>Click here</a>\n∆ Channel telegram ➤ <a href='https://t.me/Hen_nime'>Click here</a>\n∆ Twitter ➤ <a href='https://twitter.com/Ahegao_Maxxx?s=09'>Click here</a>\n\nDon't forget to share (っ'-')╮=͟͟͞͞💌"
         )
     except FloodWait as e:
         await asyncio.sleep(e.x)
         post_message = await message.copy(
-            chat_id=client.db_channel.id, caption="∆ Uploader By ➤ <a href='https://t.me/+h1K3GOqG1JI5ZTAx'>Click here</a>\n∆ Channel telegram ➤ <a href='https://t.me/RestAreaDewasa'>Click here</a>\n∆ Group telegram ➤ <a href='https://t.me/RestAreaGroup'>Click here</a>\n∆ Twitter ➤ <a href='https://twitter.com/Ahegao_Maxxx?s=09'>Click here</a>\n\nDon't forget to share (っ'-')╮=͟͟͞͞💌"
+            chat_id=client.db_channel.id, caption="∆ Uploader By ➤ <a href='https://t.me/Central_Dark_World'>Click here</a>\n∆ Channel telegram ➤ <a href='https://t.me/Hen_nime'>Click here</a>\n∆ Twitter ➤ <a href='https://twitter.com/Ahegao_Maxxx?s=09'>Click here</a>\n\nDon't forget to share (っ'-')╮=͟͟͞͞💌"
         )
     except Exception as e:
         print(e)
