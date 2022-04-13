@@ -237,24 +237,24 @@ async def get_uptime(client, m: Message):
         f"• <b>Start Time:</b> <code>{START_TIME_ISO}</code>"
     )
 
-@Bot.on_message(filters.command("admin"))
+@Bot.on_message(filters.command("perintah"))
 async def niw_post(client, m: Message):
         await m.reply_sticker(sticker="CAACAgUAAxkBAAIxg2JXHRVISQiWA4jLtjQgDpqPn76gAAJyBAAC8kOxVmu_9hr2aAQ8IwQ", quote=True)
         await m.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
         await m.reply_text(
-            f"<b>PERINTAH KHUSUS ADMIN</b>\n\n"
-            f"/batch - buat link untuk lebih dari satu posting\n"
-            f"/genlink - buat link untuk satu posting\n"
-            f"/users - lihat statistik pengguna bot\n"
-            f"/link - mendapatkan link dari bot\n"
-            f"/broadcast - menyiarkan/broadcast pesan apa pun ke pengguna bot\n\n"
-            f"printah diatas khusus untuk admin😝\n"
-            f"kalau bukan admin yang kasih printah aku gak mau, baka!!!\n\n",
+            f"/batch - ?\n"
+            f"/genlink - ?\n"
+            f"/users - ?\n"
+            f"/link - ?\n"
+            f"/ping - ?\n"
+            f"/donasi - ?\n"
+            f"/sange - ?\n"
+            f"/broadcast - ?",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("OWNER", url = f'https://t.me/wibusultan')
+                        InlineKeyboardButton("INFO BOT", url = f'https://t.me/Central_Dark_World')
                     ]
                 ]
             ),
