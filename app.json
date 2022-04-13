@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
-      "value": "5113175501:AAGAF1pwdmAg-QLJaaDMdUij973P0Z25Rc4"
+      "value": "5311379763:AAEUDNU5FYb0r2pdI5qE0sUsIYvZSEMsbpQ"
     },
     "OWNER": {
       "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
@@ -35,15 +35,15 @@
     },
     "CHANNEL_ID": {
       "description": "Masukan ID Channel Untuk [Channel Database]",
-      "value": "-1001721315235"
+      "value": "-1001567797574"
     },
     "FORCE_SUB_CHANNEL": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "-1001698797824"
+      "value": "-1001613080768"
     },
     "FORCE_SUB_GROUP": {
       "description": "Masukan ID dari Group Untuk Wajib Subscribenya, Bila tidak ingin dipakai Fsubnya, isi dengan 0",
-      "value": "-1001796459464"
+      "value": "0"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
@@ -52,16 +52,6 @@
     "FORCE_SUB_MESSAGE": {
       "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
       "value": "ꜱɪʟᴀʜᴋᴀɴ {first} ɢᴀʙᴜɴɢ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ ᴛᴇʀʟᴇʙɪʜ ᴅᴀʜᴜʟᴜ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ɪɴɪ, ʙɪʟᴀ ꜱᴜᴅᴀʜ ꜱɪʟᴀʜᴋᴀɴ {first} ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅᴀᴘᴀᴛᴋᴀɴ ꜰɪʟᴇ."
-    },
-    "CHANNEL":{
-      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "RestAreaDewasa",
-      "required": false
-    },
-    "GROUP":{
-      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "RestAreaGroup",
-      "required": false
     }
   },
   "addons": [
