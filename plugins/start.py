@@ -75,7 +75,7 @@ async def start_command(client: Bot, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply_sticker(sticker="CAACAgEAAxkBAAIwomJQQ0aC8yTqPDSSL2u51oWij7ExAALGAQACd_qARiKsSLAlEP08IwQ", quote=True)
+        temp_msg = await message.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -114,7 +114,7 @@ async def start_command(client: Bot, message: Message):
                 pass
     else:
         out = start_button(client)
-        await message.reply_sticker(sticker="CAACAgEAAxkBAAIwFmJO_r3xYHHoHJoWozgv7fUYiOdiAAJsAQAC3XJ5RvovrqpI2W7mIwQ", quote=True)
+        await message.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
         await message.reply_text(
             text=START_MSG.format(
                 first=message.from_user.first_name,
@@ -136,7 +136,7 @@ async def start_command(client: Bot, message: Message):
 @Bot.on_message(filters.command("start") & filters.private)
 async def not_joined(client: Bot, message: Message):
     buttons = fsub_button(client, message)
-    await message.reply_sticker(sticker="CAACAgEAAxkBAAIwF2JO_uLqLYUOlTl-SjT2AAHkWub0bQACWAIAAkLseUYhq88e5_ChMiME", quote=True)
+    await message.reply_sticker(sticker="CAACAgUAAxkBAAIxhGJXHRgfxCTEfRp_rVPMNlkq0-XSAALHBwAC8cKwVjrag6XWBV8yIwQ", quote=True)
     await message.reply(
         text=FORCE_MSG.format(
             first=message.from_user.first_name,
@@ -159,7 +159,7 @@ async def get_users(client: Bot, message: Message):
         chat_id=message.chat.id, text="<code>Processing ...</code>"
     )
     users = await full_userbase()
-    await msg.reply_sticker(sticker="CAACAgUAAxkBAAED9bdiDnZsREQGt8PRkI7xkHPszxzl2QACoAQAAgWdcVQ6Gal7Rq_XGiME", quote=True)
+    await msg.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
     await msg.edit(f"{len(users)} <b>Pengguna menggunakan bot ini</b>")
 
 
@@ -230,7 +230,7 @@ async def get_uptime(client, m: Message):
     current_time = datetime.utcnow()
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
-    await m.reply_sticker(sticker="CAACAgEAAxkBAAIwomJQQ0aC8yTqPDSSL2u51oWij7ExAALGAQACd_qARiKsSLAlEP08IwQ", quote=True)
+    await m.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
     await m.reply_text(
         "<b>Bot Status:</b>\n"
         f"• <b>Uptime:</b> <code>{uptime}</code>\n"
@@ -239,8 +239,8 @@ async def get_uptime(client, m: Message):
 
 @Bot.on_message(filters.command("admin"))
 async def niw_post(client, m: Message):
-        await m.reply_sticker(sticker="CAACAgEAAxkBAAIxX2JVZCmmket0cXMXPtS2fW6fOrqpAAJYAgACQux5RiGrzx7n8KEyIwQ", quote=True)
-        await m.reply_sticker(sticker="CAACAgEAAxkBAAIxZWJVZMJu6XzegNK9Y7EyuxRfTE6HAAJsAQAC3XJ5RvovrqpI2W7mIwQ", quote=True)
+        await m.reply_sticker(sticker="CAACAgUAAxkBAAIxg2JXHRVISQiWA4jLtjQgDpqPn76gAAJyBAAC8kOxVmu_9hr2aAQ8IwQ", quote=True)
+        await m.reply_sticker(sticker="CAACAgUAAxkBAAIxfmJXHOaNJLsnjThpGctB7nUTeASaAALyBQACG0CxVqiG9XPIE5JUIwQ", quote=True)
         await m.reply_text(
             f"<b>PERINTAH KHUSUS ADMIN</b>\n\n"
             f"/batch - buat link untuk lebih dari satu posting\n"
@@ -262,10 +262,10 @@ async def niw_post(client, m: Message):
 
 @Bot.on_message(filters.command("sange"))
 async def neuw_post(client, m: Message):
-        await m.reply_sticker(sticker="CAACAgEAAxkBAAIxaWJVZaCvrXFFZStqLHph1tlJ0bnGAAKYAQACoKd4Rlcwc-AjNK-_IwQ", quote=True)
+        await m.reply_sticker(sticker="CAACAgUAAxkBAAIxg2JXHRVISQiWA4jLtjQgDpqPn76gAAJyBAAC8kOxVmu_9hr2aAQ8IwQ", quote=True)
         await m.reply_text("ayo kak, aku juga sange nih..")
         
 @Bot.on_message(filters.command("donasi"))
 async def neew_post(client, m: Message):
-        temp_msg = await m.reply_sticker(sticker="CAACAgUAAxkBAAIxYmJVZLOrtLjdBD0vk2dmqM6JejwoAAIfAAOXgg0tV13NOcy3gwwjBA", quote=True)
+        temp_msg = await m.reply_sticker(sticker="CAACAgUAAxkBAAIxg2JXHRVISQiWA4jLtjQgDpqPn76gAAJyBAAC8kOxVmu_9hr2aAQ8IwQ", quote=True)
         await m.reply_text("Thanks buat kalian yg sudah support & donasi,\ndonasi kalian membuatku tetap hidup & online.\n\nLINK DONASI:\n\nhttps://sociabuzz.com/firnandaszz/tribe \n"),
