@@ -10,7 +10,7 @@ def start_button(client):
     if not FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/RestAreaDewasa')
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
         return buttons
@@ -20,7 +20,7 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/RestAreaDewasa')
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
         return buttons
@@ -30,7 +30,7 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/RestAreaDewasa')
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
         return buttons
@@ -40,7 +40,7 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/RestAreaDewasa')
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
         return buttons
