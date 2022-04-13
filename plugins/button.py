@@ -20,6 +20,9 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
+            [
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
@@ -30,6 +33,9 @@ def start_button(client):
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
+            [
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
             ],
         ]
@@ -38,6 +44,9 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
+            [
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
             [
                 InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ", url = f'https://t.me/Central_Dark_World')
@@ -54,6 +63,9 @@ def fsub_button(client, message):
             ],
             [
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
+            [
+                InlineKeyboardButton(text="ᴛᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
         ]
         try:
@@ -76,6 +88,9 @@ def fsub_button(client, message):
             [
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
+            [
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
         ]
         try:
             buttons.append(
@@ -97,6 +112,9 @@ def fsub_button(client, message):
             ],
             [
                 InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ᴘᴀᴋᴀɪ ʙᴏᴛ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
+            ],
+            [
+                InlineKeyboardButton(text="ᴛᴜᴛᴏʀɪᴀʟ ꜱᴋɪᴘ ɪᴋʟᴀɴ", url = f'https://t.me/+LRYn18fCDz4yYzcx'),
             ],
         ]
         try:
